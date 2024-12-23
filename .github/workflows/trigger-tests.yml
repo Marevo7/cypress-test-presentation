@@ -13,6 +13,6 @@ jobs:
       - name: Trigger tests in QAtests
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.DISPATCH_TOKEN }}
           repository: Marevo7/QAtests
           event-type: run-tests
