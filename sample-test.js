@@ -2,7 +2,7 @@
 
 // 1. Variables and Data Types
 const name = "Test User";
-let age = 28;
+let age = 30;
 var isActive = true;
 
 // 2. Array and Object
